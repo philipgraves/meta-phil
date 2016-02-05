@@ -1,0 +1,12 @@
+This layer defines a favorite Bitbake image.
+A typical bblayers.conf file using this layer might include:
+
+BBLAYERS ?= " \
+  /home/phil/embedded-linux/poky/meta \
+  /home/phil/embedded-linux/poky/meta-yocto \
+  /home/phil/embedded-linux/poky/meta-yocto-bsp \
+  /home/phil/embedded-linux/meta-xilinx \
+  /home/phil/embedded-linux/meta-phil \
+  /home/phil/embedded-linux/meta-openembedded/meta-oe \
+  /home/phil/embedded-linux/meta-openembedded/meta-webserver \
+  "

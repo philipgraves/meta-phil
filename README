@@ -1,5 +1,5 @@
-This layer defines a favorite Bitbake image.
-A typical bblayers.conf file using this layer might include:
+This layer defines my favorite Bitbake image for embedded Linux.
+A bblayers.conf file using this layer might include:
 
 BBLAYERS ?= " \
   /home/phil/embedded-linux/poky/meta \
